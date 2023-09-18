@@ -159,10 +159,10 @@ jobs:
         run: |
           make coverage-check
 
-      - name: Generate coverage data
-        run: |
-          mkdir -p build
-          go test -coverpkg=./... -coverprofile=./build/cover.out ./...
+      # - name: Generate coverage data
+      #   run: |
+      #     mkdir -p build
+      #     go test -coverpkg=./... -coverprofile=./build/cover.out ./...
 
       - name: Publish coverage report to Code Climate
         uses: paambaati/codeclimate-action@v5.0.0
@@ -170,5 +170,5 @@ jobs:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
         with:
           debug: true
-          coverageLocations: build/cover.out:gocov
+          coverageLocations: ./cover.out:gocov
           prefix: cmd

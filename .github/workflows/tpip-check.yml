@@ -7,7 +7,6 @@ on:
       - "**/go.mod"
       - "**/go.sum"
       - "configs/**"
-  workflow_call:
   workflow_dispatch:
   schedule:
     - cron: '*/5 * * * *'
@@ -62,8 +61,7 @@ jobs:
     # related to deletion of GH checks/status data
     if: |
       (github.event_name == 'schedule') ||
-      (github.event_name == 'workflow_dispatch') ||
-      (github.event_name == 'workflow_call')
+      (github.event_name == 'workflow_dispatch')
     needs: [ check-licenses ]
     runs-on: ubuntu-latest
     timeout-minutes: 5

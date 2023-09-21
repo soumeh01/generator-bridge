@@ -10,7 +10,7 @@ on:
   workflow_call:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 0'
+    - cron: '*/5 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -41,7 +41,6 @@ jobs:
       - name: Generate TPIP Report
         run:  |
           go-licenses report . --ignore github.com/Open-CMSIS-Pack/generator-bridge --template ../configs/${{ env.report_name }}.template > ../${{ env.report_name }}
-          date +"%Y/%m/%d %T" >> ../${{ env.report_name }}
         working-directory: ./cmd
         
       - name: Archive tpip report

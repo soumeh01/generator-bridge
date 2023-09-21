@@ -9,7 +9,7 @@ on:
       - "configs/**"
   workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}

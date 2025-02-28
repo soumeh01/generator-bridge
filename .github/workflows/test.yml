@@ -36,11 +36,12 @@ jobs:
 
       - name: Check copyright notice
         run: |
-          pip install \
-            pre-commit \
-            python-magic==0.4.18 \
-            comment-parser>=1.2.3
-          pre-commit run --all-files
+            pip install --require-hashes \
+              pre-commit==3.5.0 --hash=sha256:e259f85aef0d83c2a3b8506ffbfaf21691dbfc5a6c722a36f75a0c4bb5a179d7 \
+              python-magic==0.4.18 --hash=sha256:dfdba80505756d5d2ea3177d763c986c5991a79cc6dc3e531aa4c5b2e6ab8a16 \
+              comment-parser==1.2.3 --hash=sha256:15c5739e49c21f8895162b2d3c52e46462b91a4bbd54cb3c88c43bffbbfb5dcd
+            pre-commit run --all-files
+
 
   lint:
     name: Lint

@@ -5,14 +5,12 @@ on:
     tags:
       - "*"
 
-permissions:
-  contents: read
-
 jobs:
   test:
-    uses: Open-CMSIS-Pack/generator-bridge/.github/workflows/test.yml@main
+    uses: soumeh01/generator-bridge/.github/workflows/test.yml@temp
 
   goreleaser:
+    needs: test
     permissions:
       contents: write  # for goreleaser/goreleaser-action to create a GitHub release
     runs-on: ubuntu-latest

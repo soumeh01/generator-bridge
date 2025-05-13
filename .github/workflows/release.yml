@@ -5,12 +5,9 @@ on:
     tags:
       - "*"
 
-permissions:
-  contents: read
-
 jobs:
   test:
-    uses: Open-CMSIS-Pack/generator-bridge/.github/workflows/test.yml@main
+    uses: soumeh01/generator-bridge/.github/workflows/test.yml@temp
 
   goreleaser:
     permissions:

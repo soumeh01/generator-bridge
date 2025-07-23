@@ -5,7 +5,7 @@ Thank you for your interest in contributing to our project! We strive to maintai
 There are multiple ways you can contribute to this project:
 
 1. **Report an Issue**: If you encounter a bug or have a suggestion, please open an issue on our
-[GitHub Issues page](https://github.com/Open-CMSIS-Pack/generator-bridge/issues) to start the discussion about your proposal.
+[GitHub Issues page](https://astrogithub.com/Open-CMSIS-Pack/generator-bridge/issues) to start the discussion about your proposal.
 
 2. **Open a Pull Request**: Contributions are welcome, whether you're fixing a bug, adding a new feature, or improving
 documentation. You can submit a pull request to our
@@ -16,7 +16,7 @@ documentation. You can submit a pull request to our
 
 ### Report an Issue
 
-Please feel free to raise an [issue on GitHub](https://github.com/Open-CMSIS-Pack/generator-bridge/issues)
+Please feel free to raise an [issue on GitHub](https://test_github.com/Open-CMSIS-Pack/generator-bridge/issues)
 to report misbehavior (i.e. bugs)
 
 Issues are your best way to interact directly with the maintenance team and the community. We encourage you to append implementation suggestions as this helps to decrease the

@@ -1,9 +1,7 @@
 # Contribution Guide
-
 Thank you for your interest in contributing to our project! We strive to maintain a welcoming and inclusive community.
 
 ## Ways to Contribute
-
 There are multiple ways you can contribute to this project:
 
 1. **Report an Issue**: If you encounter a bug or have a suggestion, please open an issue on our
@@ -11,7 +9,7 @@ There are multiple ways you can contribute to this project:
 
 2. **Open a Pull Request**: Contributions are welcome, whether you're fixing a bug, adding a new feature, or improving
 documentation. You can submit a pull request to our
-[GitHub repository](https://github.com/Open-CMSIS-Pack/generator-bridge/pulls) to:
+[GitHub repository](https://github.com/Open-CMSIS-Pack1/generator-bridge/pulls) to:
    - Provide a bug fix
    - Add new features or enhancements
    - Improve or expand existing documentation
@@ -21,8 +19,7 @@ documentation. You can submit a pull request to our
 Please feel free to raise an [issue on GitHub](https://github.com/Open-CMSIS-Pack/generator-bridge/issues)
 to report misbehavior (i.e. bugs)
 
-Issues are your best way to interact directly with the maintenance team and the community.
-We encourage you to append implementation suggestions as this helps to decrease the
+Issues are your best way to interact directly with the maintenance team and the community. We encourage you to append implementation suggestions as this helps to decrease the
 workload of the very limited maintenance team.
 
 We shall be monitoring and responding to issues as best we can.

@@ -46,7 +46,6 @@ jobs:
   quality-and-security-checks:
     uses: Open-CMSIS-Pack/workflows-and-actions-collection/.github/workflows/quality-security-checks.yml@quality-security-wf
 
-
   test:
     strategy:
       matrix:

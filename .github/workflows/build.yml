@@ -25,3 +25,4 @@ jobs:
       program: cbridge
       go-version-file: ./go.mod
       artifact-retention-days: 1
+

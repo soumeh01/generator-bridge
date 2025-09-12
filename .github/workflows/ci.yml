@@ -20,7 +20,7 @@ permissions:
 
 jobs:
   build-and-verify:
-    uses: Open-CMSIS-Pack/workflows-and-actions-collection/.github/workflows/build-and-verify.yml@build-verify-workflow
+    uses: soumeh01/workflows-and-actions-collection/.github/workflows/build-and-verify.yml@v1.0.0
     with:
       program: cbridge
       go-version-file: ./go.mod
